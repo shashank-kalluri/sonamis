@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ABE45FE2DBBF3B200CA9CC1 /* SonamisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE45FD2DBBF3B200CA9CC1 /* SonamisApp.swift */; };
+		5ABE46002DBBF3B200CA9CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE45FF2DBBF3B200CA9CC1 /* ContentView.swift */; };
+		5ABE46022DBBF3B400CA9CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE46012DBBF3B400CA9CC1 /* Assets.xcassets */; };
+		5ABE46052DBBF3B400CA9CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE46042DBBF3B400CA9CC1 /* Preview Assets.xcassets */; };
+		5ABE460F2DBBF3B400CA9CC1 /* SonamisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE460E2DBBF3B400CA9CC1 /* SonamisTests.swift */; };
+		5ABE46192DBBF3B400CA9CC1 /* SonamisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE46182DBBF3B400CA9CC1 /* SonamisUITests.swift */; };
+		5ABE461B2DBBF3B400CA9CC1 /* SonamisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE461A2DBBF3B400CA9CC1 /* SonamisUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ABE460B2DBBF3B400CA9CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABE45F22DBBF3B200CA9CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABE45F92DBBF3B200CA9CC1;
+			remoteInfo = Sonamis;
+		};
+		5ABE46152DBBF3B400CA9CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABE45F22DBBF3B200CA9CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABE45F92DBBF3B200CA9CC1;
+			remoteInfo = Sonamis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ABE45FA2DBBF3B200CA9CC1 /* Sonamis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonamis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABE45FD2DBBF3B200CA9CC1 /* SonamisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonamisApp.swift; sourceTree = "<group>"; };
+		5ABE45FF2DBBF3B200CA9CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5ABE46012DBBF3B400CA9CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ABE46042DBBF3B400CA9CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ABE460A2DBBF3B400CA9CC1 /* SonamisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonamisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABE460E2DBBF3B400CA9CC1 /* SonamisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonamisTests.swift; sourceTree = "<group>"; };
+		5ABE46142DBBF3B400CA9CC1 /* SonamisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonamisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABE46182DBBF3B400CA9CC1 /* SonamisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonamisUITests.swift; sourceTree = "<group>"; };
+		5ABE461A2DBBF3B400CA9CC1 /* SonamisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonamisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ABE45F72DBBF3B200CA9CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE46072DBBF3B400CA9CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE46112DBBF3B400CA9CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ABE45F12DBBF3B200CA9CC1 = {
+			isa = PBXGroup;
+			children = (
+				5ABE45FC2DBBF3B200CA9CC1 /* Sonamis */,
+				5ABE460D2DBBF3B400CA9CC1 /* SonamisTests */,
+				5ABE46172DBBF3B400CA9CC1 /* SonamisUITests */,
+				5ABE45FB2DBBF3B200CA9CC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ABE45FB2DBBF3B200CA9CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE45FA2DBBF3B200CA9CC1 /* Sonamis.app */,
+				5ABE460A2DBBF3B400CA9CC1 /* SonamisTests.xctest */,
+				5ABE46142DBBF3B400CA9CC1 /* SonamisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ABE45FC2DBBF3B200CA9CC1 /* Sonamis */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE45FD2DBBF3B200CA9CC1 /* SonamisApp.swift */,
+				5ABE45FF2DBBF3B200CA9CC1 /* ContentView.swift */,
+				5ABE46012DBBF3B400CA9CC1 /* Assets.xcassets */,
+				5ABE46032DBBF3B400CA9CC1 /* Preview Content */,
+			);
+			path = Sonamis;
+			sourceTree = "<group>";
+		};
+		5ABE46032DBBF3B400CA9CC1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE46042DBBF3B400CA9CC1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5ABE460D2DBBF3B400CA9CC1 /* SonamisTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE460E2DBBF3B400CA9CC1 /* SonamisTests.swift */,
+			);
+			path = SonamisTests;
+			sourceTree = "<group>";
+		};
+		5ABE46172DBBF3B400CA9CC1 /* SonamisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE46182DBBF3B400CA9CC1 /* SonamisUITests.swift */,
+				5ABE461A2DBBF3B400CA9CC1 /* SonamisUITestsLaunchTests.swift */,
+			);
+			path = SonamisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ABE45F92DBBF3B200CA9CC1 /* Sonamis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABE461E2DBBF3B400CA9CC1 /* Build configuration list for PBXNativeTarget "Sonamis" */;
+			buildPhases = (
+				5ABE45F62DBBF3B200CA9CC1 /* Sources */,
+				5ABE45F72DBBF3B200CA9CC1 /* Frameworks */,
+				5ABE45F82DBBF3B200CA9CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sonamis;
+			productName = Sonamis;
+			productReference = 5ABE45FA2DBBF3B200CA9CC1 /* Sonamis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ABE46092DBBF3B400CA9CC1 /* SonamisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABE46212DBBF3B400CA9CC1 /* Build configuration list for PBXNativeTarget "SonamisTests" */;
+			buildPhases = (
+				5ABE46062DBBF3B400CA9CC1 /* Sources */,
+				5ABE46072DBBF3B400CA9CC1 /* Frameworks */,
+				5ABE46082DBBF3B400CA9CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABE460C2DBBF3B400CA9CC1 /* PBXTargetDependency */,
+			);
+			name = SonamisTests;
+			productName = SonamisTests;
+			productReference = 5ABE460A2DBBF3B400CA9CC1 /* SonamisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ABE46132DBBF3B400CA9CC1 /* SonamisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABE46242DBBF3B400CA9CC1 /* Build configuration list for PBXNativeTarget "SonamisUITests" */;
+			buildPhases = (
+				5ABE46102DBBF3B400CA9CC1 /* Sources */,
+				5ABE46112DBBF3B400CA9CC1 /* Frameworks */,
+				5ABE46122DBBF3B400CA9CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABE46162DBBF3B400CA9CC1 /* PBXTargetDependency */,
+			);
+			name = SonamisUITests;
+			productName = SonamisUITests;
+			productReference = 5ABE46142DBBF3B400CA9CC1 /* SonamisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ABE45F22DBBF3B200CA9CC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5ABE45F92DBBF3B200CA9CC1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5ABE46092DBBF3B400CA9CC1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5ABE45F92DBBF3B200CA9CC1;
+					};
+					5ABE46132DBBF3B400CA9CC1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5ABE45F92DBBF3B200CA9CC1;
+					};
+				};
+			};
+			buildConfigurationList = 5ABE45F52DBBF3B200CA9CC1 /* Build configuration list for PBXProject "Sonamis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ABE45F12DBBF3B200CA9CC1;
+			productRefGroup = 5ABE45FB2DBBF3B200CA9CC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ABE45F92DBBF3B200CA9CC1 /* Sonamis */,
+				5ABE46092DBBF3B400CA9CC1 /* SonamisTests */,
+				5ABE46132DBBF3B400CA9CC1 /* SonamisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ABE45F82DBBF3B200CA9CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABE46052DBBF3B400CA9CC1 /* Preview Assets.xcassets in Resources */,
+				5ABE46022DBBF3B400CA9CC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE46082DBBF3B400CA9CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE46122DBBF3B400CA9CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ABE45F62DBBF3B200CA9CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABE46002DBBF3B200CA9CC1 /* ContentView.swift in Sources */,
+				5ABE45FE2DBBF3B200CA9CC1 /* SonamisApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE46062DBBF3B400CA9CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABE460F2DBBF3B400CA9CC1 /* SonamisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE46102DBBF3B400CA9CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABE46192DBBF3B400CA9CC1 /* SonamisUITests.swift in Sources */,
+				5ABE461B2DBBF3B400CA9CC1 /* SonamisUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ABE460C2DBBF3B400CA9CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABE45F92DBBF3B200CA9CC1 /* Sonamis */;
+			targetProxy = 5ABE460B2DBBF3B400CA9CC1 /* PBXContainerItemProxy */;
+		};
+		5ABE46162DBBF3B400CA9CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABE45F92DBBF3B200CA9CC1 /* Sonamis */;
+			targetProxy = 5ABE46152DBBF3B400CA9CC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ABE461C2DBBF3B400CA9CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ABE461D2DBBF3B400CA9CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ABE461F2DBBF3B400CA9CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sonamis/Preview Content\"";
+				DEVELOPMENT_TEAM = 8WA5P9B8HS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonamis-testing.Sonamis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ABE46202DBBF3B400CA9CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sonamis/Preview Content\"";
+				DEVELOPMENT_TEAM = 8WA5P9B8HS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonamis-testing.Sonamis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ABE46222DBBF3B400CA9CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WA5P9B8HS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonamis-testing.SonamisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonamis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sonamis";
+			};
+			name = Debug;
+		};
+		5ABE46232DBBF3B400CA9CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WA5P9B8HS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonamis-testing.SonamisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonamis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sonamis";
+			};
+			name = Release;
+		};
+		5ABE46252DBBF3B400CA9CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WA5P9B8HS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonamis-testing.SonamisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sonamis;
+			};
+			name = Debug;
+		};
+		5ABE46262DBBF3B400CA9CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8WA5P9B8HS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonamis-testing.SonamisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sonamis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ABE45F52DBBF3B200CA9CC1 /* Build configuration list for PBXProject "Sonamis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABE461C2DBBF3B400CA9CC1 /* Debug */,
+				5ABE461D2DBBF3B400CA9CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABE461E2DBBF3B400CA9CC1 /* Build configuration list for PBXNativeTarget "Sonamis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABE461F2DBBF3B400CA9CC1 /* Debug */,
+				5ABE46202DBBF3B400CA9CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABE46212DBBF3B400CA9CC1 /* Build configuration list for PBXNativeTarget "SonamisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABE46222DBBF3B400CA9CC1 /* Debug */,
+				5ABE46232DBBF3B400CA9CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABE46242DBBF3B400CA9CC1 /* Build configuration list for PBXNativeTarget "SonamisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABE46252DBBF3B400CA9CC1 /* Debug */,
+				5ABE46262DBBF3B400CA9CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ABE45F22DBBF3B200CA9CC1 /* Project object */;
+}
