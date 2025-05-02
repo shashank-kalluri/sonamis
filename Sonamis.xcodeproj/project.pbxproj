@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A94C42A2DC4AD4800354AB8 /* Privy in Frameworks */ = {isa = PBXBuildFile; productRef = 5A94C4292DC4AD4800354AB8 /* Privy */; };
 		5ABE45FE2DBBF3B200CA9CC1 /* SonamisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE45FD2DBBF3B200CA9CC1 /* SonamisApp.swift */; };
-		5ABE46002DBBF3B200CA9CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE45FF2DBBF3B200CA9CC1 /* ContentView.swift */; };
 		5ABE46022DBBF3B400CA9CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE46012DBBF3B400CA9CC1 /* Assets.xcassets */; };
 		5ABE46052DBBF3B400CA9CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE46042DBBF3B400CA9CC1 /* Preview Assets.xcassets */; };
 		5ABE460F2DBBF3B400CA9CC1 /* SonamisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE460E2DBBF3B400CA9CC1 /* SonamisTests.swift */; };
 		5ABE46192DBBF3B400CA9CC1 /* SonamisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE46182DBBF3B400CA9CC1 /* SonamisUITests.swift */; };
 		5ABE461B2DBBF3B400CA9CC1 /* SonamisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE461A2DBBF3B400CA9CC1 /* SonamisUITestsLaunchTests.swift */; };
+		5ABE462A2DC452C000CA9CC1 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE46292DC452C000CA9CC1 /* HealthKitService.swift */; };
+		5ABE462D2DC452F000CA9CC1 /* SleepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE462C2DC452F000CA9CC1 /* SleepData.swift */; };
+		5ABE462F2DC4649500CA9CC1 /* DailyMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE462E2DC4649500CA9CC1 /* DailyMetric.swift */; };
+		5ABE46312DC464B400CA9CC1 /* SleepScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE46302DC464B400CA9CC1 /* SleepScoreCalculator.swift */; };
+		5ABE46342DC464F400CA9CC1 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE46332DC464F400CA9CC1 /* DashboardView.swift */; };
+		5ABE46362DC469A700CA9CC1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE46352DC469A700CA9CC1 /* ProfileView.swift */; };
+		5ABE46382DC469D100CA9CC1 /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE46372DC469D100CA9CC1 /* ChallengesView.swift */; };
+		5ABE463A2DC46A3D00CA9CC1 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE46392DC46A3D00CA9CC1 /* FriendsView.swift */; };
+		5ABE46462DC47F5500CA9CC1 /* SleepWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE46452DC47F5500CA9CC1 /* SleepWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		5ABE45FA2DBBF3B200CA9CC1 /* Sonamis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonamis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABE45FD2DBBF3B200CA9CC1 /* SonamisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonamisApp.swift; sourceTree = "<group>"; };
-		5ABE45FF2DBBF3B200CA9CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5ABE46012DBBF3B400CA9CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ABE46042DBBF3B400CA9CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5ABE460A2DBBF3B400CA9CC1 /* SonamisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonamisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,17 @@
 		5ABE46142DBBF3B400CA9CC1 /* SonamisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonamisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABE46182DBBF3B400CA9CC1 /* SonamisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonamisUITests.swift; sourceTree = "<group>"; };
 		5ABE461A2DBBF3B400CA9CC1 /* SonamisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonamisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5ABE46272DC4522600CA9CC1 /* Sonamis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sonamis.entitlements; sourceTree = "<group>"; };
+		5ABE46292DC452C000CA9CC1 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		5ABE462C2DC452F000CA9CC1 /* SleepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepData.swift; sourceTree = "<group>"; };
+		5ABE462E2DC4649500CA9CC1 /* DailyMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMetric.swift; sourceTree = "<group>"; };
+		5ABE46302DC464B400CA9CC1 /* SleepScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScoreCalculator.swift; sourceTree = "<group>"; };
+		5ABE46332DC464F400CA9CC1 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		5ABE46352DC469A700CA9CC1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5ABE46372DC469D100CA9CC1 /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
+		5ABE46392DC46A3D00CA9CC1 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		5ABE46452DC47F5500CA9CC1 /* SleepWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepWindow.swift; sourceTree = "<group>"; };
+		5ABE46472DC498E400CA9CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A94C42A2DC4AD4800354AB8 /* Privy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,7 @@
 				5ABE460D2DBBF3B400CA9CC1 /* SonamisTests */,
 				5ABE46172DBBF3B400CA9CC1 /* SonamisUITests */,
 				5ABE45FB2DBBF3B200CA9CC1 /* Products */,
+				5ABE46542DC4A4A400CA9CC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +115,13 @@
 		5ABE45FC2DBBF3B200CA9CC1 /* Sonamis */ = {
 			isa = PBXGroup;
 			children = (
+				5ABE46472DC498E400CA9CC1 /* Info.plist */,
+				5ABE463B2DC46C8600CA9CC1 /* Extensions */,
+				5ABE46322DC464E000CA9CC1 /* Views */,
+				5ABE462B2DC452DD00CA9CC1 /* Models */,
+				5ABE46282DC452AA00CA9CC1 /* Services */,
+				5ABE46272DC4522600CA9CC1 /* Sonamis.entitlements */,
 				5ABE45FD2DBBF3B200CA9CC1 /* SonamisApp.swift */,
-				5ABE45FF2DBBF3B200CA9CC1 /* ContentView.swift */,
 				5ABE46012DBBF3B400CA9CC1 /* Assets.xcassets */,
 				5ABE46032DBBF3B400CA9CC1 /* Preview Content */,
 			);
@@ -127,6 +153,50 @@
 			path = SonamisUITests;
 			sourceTree = "<group>";
 		};
+		5ABE46282DC452AA00CA9CC1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE46292DC452C000CA9CC1 /* HealthKitService.swift */,
+				5ABE46302DC464B400CA9CC1 /* SleepScoreCalculator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5ABE462B2DC452DD00CA9CC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE462C2DC452F000CA9CC1 /* SleepData.swift */,
+				5ABE462E2DC4649500CA9CC1 /* DailyMetric.swift */,
+				5ABE46452DC47F5500CA9CC1 /* SleepWindow.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5ABE46322DC464E000CA9CC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE46332DC464F400CA9CC1 /* DashboardView.swift */,
+				5ABE46352DC469A700CA9CC1 /* ProfileView.swift */,
+				5ABE46372DC469D100CA9CC1 /* ChallengesView.swift */,
+				5ABE46392DC46A3D00CA9CC1 /* FriendsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5ABE463B2DC46C8600CA9CC1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5ABE46542DC4A4A400CA9CC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +213,9 @@
 			dependencies = (
 			);
 			name = Sonamis;
+			packageProductDependencies = (
+				5A94C4292DC4AD4800354AB8 /* Privy */,
+			);
 			productName = Sonamis;
 			productReference = 5ABE45FA2DBBF3B200CA9CC1 /* Sonamis.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +288,9 @@
 				Base,
 			);
 			mainGroup = 5ABE45F12DBBF3B200CA9CC1;
+			packageReferences = (
+				5A94C4282DC4AD4800354AB8 /* XCRemoteSwiftPackageReference "privy-ios" */,
+			);
 			productRefGroup = 5ABE45FB2DBBF3B200CA9CC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +333,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ABE46002DBBF3B200CA9CC1 /* ContentView.swift in Sources */,
+				5ABE463A2DC46A3D00CA9CC1 /* FriendsView.swift in Sources */,
+				5ABE46462DC47F5500CA9CC1 /* SleepWindow.swift in Sources */,
+				5ABE46382DC469D100CA9CC1 /* ChallengesView.swift in Sources */,
+				5ABE46362DC469A700CA9CC1 /* ProfileView.swift in Sources */,
+				5ABE46312DC464B400CA9CC1 /* SleepScoreCalculator.swift in Sources */,
+				5ABE462D2DC452F000CA9CC1 /* SleepData.swift in Sources */,
+				5ABE46342DC464F400CA9CC1 /* DashboardView.swift in Sources */,
+				5ABE462F2DC4649500CA9CC1 /* DailyMetric.swift in Sources */,
 				5ABE45FE2DBBF3B200CA9CC1 /* SonamisApp.swift in Sources */,
+				5ABE462A2DC452C000CA9CC1 /* HealthKitService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +503,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sonamis/Sonamis.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sonamis/Preview Content\"";
 				DEVELOPMENT_TEAM = 8WA5P9B8HS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sonamis/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sonamis needs to read your sleep data from Health so we can access daily sleep metrics and trends";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -448,12 +535,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sonamis/Sonamis.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sonamis/Preview Content\"";
 				DEVELOPMENT_TEAM = 8WA5P9B8HS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sonamis/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sonamis needs to read your sleep data from Health so we can access daily sleep metrics and trends";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +678,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A94C4282DC4AD4800354AB8 /* XCRemoteSwiftPackageReference "privy-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/privy-io/privy-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A94C4292DC4AD4800354AB8 /* Privy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A94C4282DC4AD4800354AB8 /* XCRemoteSwiftPackageReference "privy-ios" */;
+			productName = Privy;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5ABE45F22DBBF3B200CA9CC1 /* Project object */;
 }
