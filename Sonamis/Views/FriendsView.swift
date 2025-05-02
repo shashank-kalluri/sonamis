@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FriendsView: View {
     @State private var friends: [String] = [
-        "Alice", "Bob", "Charlie"
+        "Adil", "Shashank", "Toly"
     ]
     
     var body: some View {

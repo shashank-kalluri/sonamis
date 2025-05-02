@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ChallengesView: View {
     @State private var challenges: [String] = [
-        "7‑Day Sleep Streak",
-        "Weekend Deep‑Sleep Duel"
+        "1 Week Sleep Streak",
+        "Weekend Sleep Duel"
     ]
 
     var body: some View {

@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5A94C42A2DC4AD4800354AB8 /* Privy in Frameworks */ = {isa = PBXBuildFile; productRef = 5A94C4292DC4AD4800354AB8 /* Privy */; };
+		5A94C42C2DC4AF5700354AB8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A94C42B2DC4AF5700354AB8 /* RootView.swift */; };
+		5A94C42E2DC4AFA500354AB8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A94C42D2DC4AFA500354AB8 /* LoginView.swift */; };
+		5A94C4302DC4B01200354AB8 /* PrivyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A94C42F2DC4B01200354AB8 /* PrivyManager.swift */; };
+		5A94C4332DC4B17800354AB8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5A94C4322DC4B17800354AB8 /* FirebaseAuth */; };
+		5A94C4352DC4B17800354AB8 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5A94C4342DC4B17800354AB8 /* FirebaseCore */; };
+		5A94C4372DC4B17800354AB8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5A94C4362DC4B17800354AB8 /* FirebaseFirestore */; };
+		5A94C4392DC4B17800354AB8 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 5A94C4382DC4B17800354AB8 /* FirebaseFunctions */; };
+		5A94C43B2DC4B19D00354AB8 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A94C43A2DC4B19D00354AB8 /* TabView.swift */; };
 		5ABE45FE2DBBF3B200CA9CC1 /* SonamisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE45FD2DBBF3B200CA9CC1 /* SonamisApp.swift */; };
 		5ABE46022DBBF3B400CA9CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE46012DBBF3B400CA9CC1 /* Assets.xcassets */; };
 		5ABE46052DBBF3B400CA9CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE46042DBBF3B400CA9CC1 /* Preview Assets.xcassets */; };
@@ -43,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A94C42B2DC4AF5700354AB8 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5A94C42D2DC4AFA500354AB8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5A94C42F2DC4B01200354AB8 /* PrivyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivyManager.swift; sourceTree = "<group>"; };
+		5A94C43A2DC4B19D00354AB8 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		5ABE45FA2DBBF3B200CA9CC1 /* Sonamis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonamis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABE45FD2DBBF3B200CA9CC1 /* SonamisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonamisApp.swift; sourceTree = "<group>"; };
 		5ABE46012DBBF3B400CA9CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +83,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A94C42A2DC4AD4800354AB8 /* Privy in Frameworks */,
+				5A94C4372DC4B17800354AB8 /* FirebaseFirestore in Frameworks */,
+				5A94C4392DC4B17800354AB8 /* FirebaseFunctions in Frameworks */,
+				5A94C4352DC4B17800354AB8 /* FirebaseCore in Frameworks */,
+				5A94C4332DC4B17800354AB8 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +174,7 @@
 			children = (
 				5ABE46292DC452C000CA9CC1 /* HealthKitService.swift */,
 				5ABE46302DC464B400CA9CC1 /* SleepScoreCalculator.swift */,
+				5A94C42F2DC4B01200354AB8 /* PrivyManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -179,6 +196,9 @@
 				5ABE46352DC469A700CA9CC1 /* ProfileView.swift */,
 				5ABE46372DC469D100CA9CC1 /* ChallengesView.swift */,
 				5ABE46392DC46A3D00CA9CC1 /* FriendsView.swift */,
+				5A94C42B2DC4AF5700354AB8 /* RootView.swift */,
+				5A94C42D2DC4AFA500354AB8 /* LoginView.swift */,
+				5A94C43A2DC4B19D00354AB8 /* TabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +235,10 @@
 			name = Sonamis;
 			packageProductDependencies = (
 				5A94C4292DC4AD4800354AB8 /* Privy */,
+				5A94C4322DC4B17800354AB8 /* FirebaseAuth */,
+				5A94C4342DC4B17800354AB8 /* FirebaseCore */,
+				5A94C4362DC4B17800354AB8 /* FirebaseFirestore */,
+				5A94C4382DC4B17800354AB8 /* FirebaseFunctions */,
 			);
 			productName = Sonamis;
 			productReference = 5ABE45FA2DBBF3B200CA9CC1 /* Sonamis.app */;
@@ -290,6 +314,7 @@
 			mainGroup = 5ABE45F12DBBF3B200CA9CC1;
 			packageReferences = (
 				5A94C4282DC4AD4800354AB8 /* XCRemoteSwiftPackageReference "privy-ios" */,
+				5A94C4312DC4B17800354AB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 5ABE45FB2DBBF3B200CA9CC1 /* Products */;
 			projectDirPath = "";
@@ -337,12 +362,16 @@
 				5ABE46462DC47F5500CA9CC1 /* SleepWindow.swift in Sources */,
 				5ABE46382DC469D100CA9CC1 /* ChallengesView.swift in Sources */,
 				5ABE46362DC469A700CA9CC1 /* ProfileView.swift in Sources */,
+				5A94C43B2DC4B19D00354AB8 /* TabView.swift in Sources */,
 				5ABE46312DC464B400CA9CC1 /* SleepScoreCalculator.swift in Sources */,
 				5ABE462D2DC452F000CA9CC1 /* SleepData.swift in Sources */,
+				5A94C42E2DC4AFA500354AB8 /* LoginView.swift in Sources */,
 				5ABE46342DC464F400CA9CC1 /* DashboardView.swift in Sources */,
 				5ABE462F2DC4649500CA9CC1 /* DailyMetric.swift in Sources */,
 				5ABE45FE2DBBF3B200CA9CC1 /* SonamisApp.swift in Sources */,
 				5ABE462A2DC452C000CA9CC1 /* HealthKitService.swift in Sources */,
+				5A94C4302DC4B01200354AB8 /* PrivyManager.swift in Sources */,
+				5A94C42C2DC4AF5700354AB8 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,6 +717,14 @@
 				minimumVersion = 1.9.0;
 			};
 		};
+		5A94C4312DC4B17800354AB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -695,6 +732,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5A94C4282DC4AD4800354AB8 /* XCRemoteSwiftPackageReference "privy-ios" */;
 			productName = Privy;
+		};
+		5A94C4322DC4B17800354AB8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A94C4312DC4B17800354AB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5A94C4342DC4B17800354AB8 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A94C4312DC4B17800354AB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		5A94C4362DC4B17800354AB8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A94C4312DC4B17800354AB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5A94C4382DC4B17800354AB8 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A94C4312DC4B17800354AB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

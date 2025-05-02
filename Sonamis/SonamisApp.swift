@@ -1,4 +1,3 @@
-//
 //  SonamisApp.swift
 //  Sonamis
 //
@@ -9,20 +8,14 @@ import SwiftUI
 
 @main
 struct SonamisApp: App {
+    @StateObject private var privyManager = PrivyManager()
+    
     var body: some Scene {
         WindowGroup {
-            TabView {
-                DashboardView()
-                    .tabItem { Label("Dashboard", systemImage: "chart.line.uptrend.xyaxis") }
-                ChallengesView()
-                    .tabItem { Label("Challenges", systemImage: "flag.fill") }
-                FriendsView()
-                    .tabItem { Label("Friends", systemImage: "person.2.fill") }
-                ProfileView()
-                    .tabItem { Label("Profile", systemImage: "person.crop.circle") }
-            }
-            .preferredColorScheme(.dark)
-            .font(.system(.body, design: .rounded))
+            RootView()
+                .environmentObject(privyManager)
+                .preferredColorScheme(.dark)
+                .font(.system(.body, design: .rounded))
         }
     }
 }
